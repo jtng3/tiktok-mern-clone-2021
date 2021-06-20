@@ -1,9 +1,22 @@
-import './App.css';
+import "./App.css";
+import Video from "./Video.js";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Lets build a Full Stack MERN tiktok clone</h1>
+    // BEM naming convention
+
+    <div className="app">
+      <div className="app__videos">
+        <Video />
+        <Video />
+        <Video />
+      </div>
+
+      {/* app container */}
+      {/* videos */}
+      {/* <Videos /> */}
+      {/* <Videos /> */}
+      {/* <Videos /> */}
     </div>
   );
 }
