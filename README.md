@@ -14,3 +14,9 @@ BACKEND
     MongoDB
     Mongoose
     Hosting on Heroku
+
+Notes: 
+
+Resources:
+storybook.js.org
+flexboxfroggy.com
